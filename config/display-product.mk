@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@4.0.vendor \
     init.qti.display_boot.sh \
     init.qti.display_boot.rc \
-    modetest
+    modetest \
+    vndservicemanager
 
 ifneq ($(TARGET_HAS_LOW_RAM),true)
 #QDCM calibration xml file for 2k panel
