@@ -1,6 +1,5 @@
-ifeq ($(BOARD_DISPLAY_HAL),)
-    BOARD_DISPLAY_HAL := hardware/qcom/display
-endif
+# Use our sm8250 Display Configs
+BOARD_DISPLAY_HAL := hardware/qcom-caf/sm8250/display
 
 # Display product definitions
 PRODUCT_PACKAGES += \
